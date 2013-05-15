@@ -10,13 +10,14 @@ import lombok.Data;
  *
  */
 @Data
+
 /**
  * Classe réprésentant une mesure
  * @author Esposito Le Corre
  *
  */
 @SuppressWarnings("PMD.UnusedPrivateField")
-public abstract class Mesure {
+public abstract class AbstractMesure {
 
 	private double quantite;
 	

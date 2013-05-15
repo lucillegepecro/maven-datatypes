@@ -6,7 +6,8 @@ import java.io.InputStream;
 import java.util.Properties;
 
 
-public class MesureComplexe extends Mesure {
+
+public class MesureComplexe extends AbstractMesure {
 
 	/**
 	 * Conversion complexes ex : temperature, angle, ...
