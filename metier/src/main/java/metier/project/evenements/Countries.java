@@ -1,6 +1,6 @@
 package metier.project.evenements;
 
-import java.util.ArrayList;
+import java.util.Collection;
 
 import lombok.Data;
 
@@ -20,19 +20,16 @@ import lombok.Data;
  *
  */
 @SuppressWarnings("PMD.UnusedPrivateField")
-public class Pays {
+public class Countries {
 	/**
 	 * nom du pays
 	 */
 	private String nom;
 	
-	
 	/**
 	 * Ensemble de villes contenues dans le pays
 	 */
-	private ArrayList<Ville> villes;
-	
-
+	private Collection<Ville> villes;
 	/**
 	 * Ajouter une ville au pays
 	 * @param ville
