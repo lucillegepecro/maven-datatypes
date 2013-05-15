@@ -13,7 +13,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -26,10 +25,7 @@
             <artifactId>lombok</artifactId>
             <version>0.11.6</version>
         </dependency>
-
-
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -41,6 +37,14 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
+            <plugin>
+	        <groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-site-plugin</artifactId>
+		<version>3.2</version>
+		<configuration>
+		<locales>fr</locales>
+		</configuration> 
+		</plugin>
         </plugins>
     </build>
     <reporting>
@@ -48,7 +52,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
-                <version>3.01</version>
+                <version>3.0.1</version>
                 <configuration>
                     <linkXref>true</linkXref>
                     <sourceEncoding>UTF-8</sourceEncoding>
@@ -59,10 +63,10 @@
                         <ruleset>rulesets/java/naming.xml</ruleset>
                         <ruleset>rulesets/java/braces.xml</ruleset>
                         <ruleset>rulesets/java/coupling.xml</ruleset>
-                        <ruleset>rulesets/java/unused-code.xml</ruleset>
+                        <ruleset>rulesets/java/unusedcode.xml</ruleset>
                     </rulesets>
                 </configuration>
             </plugin>
         </plugins>
-    </reporting>
+    </reporting>       
 </project>
