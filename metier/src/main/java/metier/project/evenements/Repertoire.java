@@ -1,6 +1,6 @@
 package metier.project.evenements;
 
-import java.util.ArrayList;
+import java.util.Collection;
 
 import lombok.Data;
 /**
@@ -11,6 +11,7 @@ import lombok.Data;
  *
  */
 @Data
+
 
 /**
  * Classe représentant un répertoire
@@ -29,7 +30,7 @@ public class Repertoire {
 	/**
 	 * Ensemble de personnes du répertoire
 	 */
-	private ArrayList<Personne> personnes;
+	private Collection<Personne> personnes;
 	
 	/**
 	 * Ajouter une personne au répertoire

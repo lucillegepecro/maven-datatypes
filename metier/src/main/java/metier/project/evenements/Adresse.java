@@ -20,6 +20,7 @@ import lombok.Data;
 @SuppressWarnings("PMD.UnusedPrivateField")
 public class Adresse {
 
+    
 	/**
 	 * lieu d'habitation
 	 */
@@ -38,5 +39,5 @@ public class Adresse {
 	/**
 	 * pays où se situe l'adresse
 	 */
-	private Pays pays;
+	private Countries pays;
 }

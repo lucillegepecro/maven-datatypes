@@ -20,6 +20,7 @@ import lombok.Data;
 @SuppressWarnings("PMD.UnusedPrivateField")
 public class Ressource {
 
+    
 	/**
 	 * nom de la ressource
 	 */
@@ -32,7 +33,7 @@ public class Ressource {
 	/**
 	 *creneau de location. La ressource est loue
 	 */
-	public void LouerCreneau() {
+	public void louerCreneau() {
 		this.loue=true;
 	}
 

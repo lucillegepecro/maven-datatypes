@@ -1,9 +1,10 @@
 package metier.project.evenements;
 
-import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
 
 import lombok.Data;
+
 
 /**
  * 
@@ -55,7 +56,7 @@ public class Evenement {
 	/**
 	 * ressources utilisées par l'évenement (personnes matériel)
 	 */
-	private ArrayList<Ressource> ressources;
+	private Collection<Ressource> ressources;
 	
 	
 	/**

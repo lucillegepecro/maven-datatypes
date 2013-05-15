@@ -1,8 +1,9 @@
 package metier.project.evenements;
 
-import java.util.ArrayList;
+import java.util.Collection;
 
 import lombok.Data;
+
 
 /**
  * 
@@ -23,7 +24,7 @@ public class Personne extends Ressource{
 	/**
 	 * Ensemble des adresses d'une personne
 	 */
-	private ArrayList<Adresse> adresses;
+	private Collection<Adresse> adresses;
 	
 	/**
 	 * Age de la personne 
