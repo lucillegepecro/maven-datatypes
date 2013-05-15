@@ -10,6 +10,38 @@
     <name>project</name>
     <url>http://maven.apache.org</url>
 
+
+    <description> Projet de NPIE </description>
+    
+        <developers>
+            <developer>
+                <id>esposito</id>    
+                <name>Claudia ESPOSITO</name>
+             </developer>
+             <developer>
+                <id>lecorre</id>    
+                <name>Anna LE CORRE</name>
+             </developer>
+                <developer>
+                <id>mazeaud</id>    
+                <name>Marine Mazeaud</name>
+             </developer>
+        </developers>
+        
+        <licenses>
+            <license>
+                <name>All rights reserved- LeCorre-Esposito-Mazeaud</name>
+                <distribution>github</distribution>
+            </license>
+        </licenses>
+        
+       <scm>
+            <connection>scm:git:https://github.com/lucillegepecro/maven-datatypes</connection>
+            <url>https://github.com/lucillegepecro/maven-datatypes</url>
+            <tag>HEAD</tag>
+            
+        </scm>           
+        
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -37,18 +69,36 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
+            
             <plugin>
 	        <groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-site-plugin</artifactId>
 		<version>3.2</version>
-		<configuration>
-		<locales>fr</locales>
-		</configuration> 
 		</plugin>
         </plugins>
     </build>
     <reporting>
         <plugins>
+             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.9</version>
+            </plugin>
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-report-plugin</artifactId>
+            <version>2.4.2</version>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>taglist-maven-plugin</artifactId>
+                <version>2.4</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>1.8.1</version>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
@@ -68,5 +118,6 @@
                 </configuration>
             </plugin>
         </plugins>
+        
     </reporting>       
 </project>
