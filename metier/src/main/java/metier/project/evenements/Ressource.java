@@ -1,6 +1,5 @@
 package metier.project.evenements;
 
-import java.util.Date;
 
 import lombok.Data;
 
@@ -18,6 +17,7 @@ import lombok.Data;
  * @author Esposito Le Corre
  *
  */
+@SuppressWarnings("PMD.UnusedPrivateField")
 public class Ressource {
 
 	/**

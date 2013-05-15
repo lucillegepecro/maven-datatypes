@@ -15,6 +15,7 @@ import lombok.Data;
  * @author Clo
  *
  */
+@SuppressWarnings("PMD.UnusedPrivateField")
 public class Telephone {
 	/**
 	 * Numéro privé

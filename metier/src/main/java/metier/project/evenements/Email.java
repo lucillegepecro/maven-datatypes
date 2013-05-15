@@ -18,6 +18,7 @@ import lombok.Data;
  * @author Esposito Le Corre
  *
  */
+@SuppressWarnings("PMD.UnusedPrivateField")
 public class Email {
 	/**
 	 * nom de l'email caractérisant un individu

@@ -23,6 +23,7 @@ import lombok.Data;
  * @author Esposito Le Corre
  *
  */
+@SuppressWarnings("PMD.UnusedPrivateField")
 public class Evenement {
 	/**
 	 * Date debut event

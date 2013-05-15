@@ -19,6 +19,7 @@ import lombok.Data;
  * @author Esposito Le Corre
  *
  */
+@SuppressWarnings("PMD.UnusedPrivateField")
 public class Pays {
 	/**
 	 * nom du pays

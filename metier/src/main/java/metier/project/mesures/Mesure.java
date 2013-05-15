@@ -15,6 +15,7 @@ import lombok.Data;
  * @author Esposito Le Corre
  *
  */
+@SuppressWarnings("PMD.UnusedPrivateField")
 public abstract class Mesure {
 
 	private double quantite;

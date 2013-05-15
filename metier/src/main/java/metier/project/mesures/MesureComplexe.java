@@ -4,19 +4,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-import java.util.PropertyResourceBundle;
-import java.util.ResourceBundle;
 
-import lombok.Data;
 
-/**
- * 
- * A shortcut for @ToString, @EqualsAndHashCode,
- * 
- * @Getter on all fields, and @Setter on all non-final fields, and @RequiredArgsConstructor
- * 
- */
-@Data
 public class MesureComplexe extends Mesure {
 
 	/**
@@ -37,14 +26,14 @@ public class MesureComplexe extends Mesure {
 				properties.load(new FileInputStream(UNITES_FILE));
 
 			} catch (final Exception exp) {
-
+                            exp.getStackTrace();
 			} finally {
 				try {
 					if (stream != null) {
 						stream.close();
 					}
 				} catch (final IOException e) {
-
+                                    e.getStackTrace();
 				}
 			}
 		}
@@ -52,7 +41,7 @@ public class MesureComplexe extends Mesure {
 		// résultat de la conversion
 		double res = 0;
 
-		double pivot;
+	
 
 		// récupération des valeurs correspondant aux unités
 		String valeurE = properties.getProperty(uniteE);
@@ -90,14 +79,14 @@ public class MesureComplexe extends Mesure {
 				properties = new Properties();
 				properties.load(new FileInputStream(UNITES_FILE));
 			} catch (final Exception exp) {
-
+                            exp.getStackTrace();
 			} finally {
 				try {
 					if (stream != null) {
 						stream.close();
 					}
 				} catch (final IOException e) {
-
+                                    e.getStackTrace();
 				}
 			}
 		}

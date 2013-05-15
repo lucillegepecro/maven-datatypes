@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.055" errors="0" skipped="0" tests="6" name="metier.project.mesures.MesureSimpleTest">
+<testsuite failures="0" time="0.061" errors="0" skipped="0" tests="6" name="metier.project.mesures.MesureSimpleTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386"/>
@@ -7,7 +7,6 @@
     <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
     <property name="java.vendor.url" value="http://java.sun.com/"/>
     <property name="path.separator" value=":"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.country" value="FR"/>
@@ -17,50 +16,51 @@
     <property name="user.dir" value="/comptes/E09A047P/NetBeansProjects/Datatypes/metier"/>
     <property name="java.runtime.version" value="1.6.0_26-b03"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/comptes/E09A047P/NetBeansProjects/Datatypes/metier"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/endorsed"/>
     <property name="os.arch" value="i386"/>
+    <property name="surefire.real.class.path" value="/comptes/E09A047P/NetBeansProjects/Datatypes/metier/target/surefire/surefirebooter6686262031843721247.jar"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/usr/local/opt/netbeans/netbeans-7.2.1/java/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/server:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/../lib/i386:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/client:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/../lib/i386:/usr/lib/jvm/java-6-sun/jre/lib/amd64:/usr/lib/jvm/java-6-sun/jre/lib/i386::/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/server:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/../lib/i386::/usr/local/opt/xenomai/lib:/usr/local/opt/Client_oracle:/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/comptes/E09A047P/NetBeansProjects/Datatypes/metier/target/test-classes:/comptes/E09A047P/NetBeansProjects/Datatypes/metier/target/classes:/comptes/E09A047P/.m2/repository/junit/junit/4.11/junit-4.11.jar:/comptes/E09A047P/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/comptes/E09A047P/.m2/repository/org/projectlombok/lombok/0.11.6/lombok-0.11.6.jar:"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
     <property name="os.version" value="3.2.0-27-generic"/>
     <property name="user.home" value="/comptes/E09A047P"/>
-    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="user.timezone" value=""/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="1.6"/>
     <property name="user.name" value="E09A047P"/>
-    <property name="java.class.path" value="/usr/local/opt/netbeans/netbeans-7.2.1/java/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.class.path" value="/comptes/E09A047P/NetBeansProjects/Datatypes/metier/target/test-classes:/comptes/E09A047P/NetBeansProjects/Datatypes/metier/target/classes:/comptes/E09A047P/.m2/repository/junit/junit/4.11/junit-4.11.jar:/comptes/E09A047P/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/comptes/E09A047P/.m2/repository/org/projectlombok/lombok/0.11.6/lombok-0.11.6.jar:"/>
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="/usr/lib/jvm/java-6-sun-1.6.0.26/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="/comptes/E09A047P/NetBeansProjects/Datatypes/metier/target/surefire/surefirebooter6686262031843721247.jar /comptes/E09A047P/NetBeansProjects/Datatypes/metier/target/surefire/surefire3805789278612012913tmp /comptes/E09A047P/NetBeansProjects/Datatypes/metier/target/surefire/surefire9120211681232983884tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="fr"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.6.0_26"/>
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext:/usr/java/packages/lib/ext"/>
-    <property name="securerandom.source" value="file:/dev/./urandom"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/resources.jar:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jsse.jar:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jce.jar:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/charsets.jar:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/classes"/>
     <property name="java.vendor" value="Sun Microsystems Inc."/>
-    <property name="maven.home" value="/usr/local/opt/netbeans/netbeans-7.2.1/java/maven"/>
+    <property name="localRepository" value="/comptes/E09A047P/.m2/repository"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.002" classname="metier.project.mesures.MesureSimpleTest" name="conversionKgtoGtest2"/>
-  <testcase time="0" classname="metier.project.mesures.MesureSimpleTest" name="conversionGtoKgtest"/>
+  <testcase time="0.003" classname="metier.project.mesures.MesureSimpleTest" name="conversionKgtoGtest2"/>
+  <testcase time="0.001" classname="metier.project.mesures.MesureSimpleTest" name="conversionGtoKgtest"/>
   <testcase time="0" classname="metier.project.mesures.MesureSimpleTest" name="conversionlitresTest"/>
   <testcase time="0.001" classname="metier.project.mesures.MesureSimpleTest" name="conversionltomLCentimetre"/>
-  <testcase time="0" classname="metier.project.mesures.MesureSimpleTest" name="conversionKgtogtest"/>
-  <testcase time="0" classname="metier.project.mesures.MesureSimpleTest" name="conversionltomLtest2"/>
+  <testcase time="0.001" classname="metier.project.mesures.MesureSimpleTest" name="conversionKgtogtest"/>
+  <testcase time="0.001" classname="metier.project.mesures.MesureSimpleTest" name="conversionltomLtest2"/>
 </testsuite>
